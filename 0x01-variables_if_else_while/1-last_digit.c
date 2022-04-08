@@ -7,11 +7,8 @@
 
 
 /**
-
  * main - the containing function
-
  * Return: will return zero when successful
-
  */
 
 

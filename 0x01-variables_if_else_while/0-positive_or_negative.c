@@ -6,9 +6,7 @@
 
 /**
  * main - The containing function of the c programme
-
  * Return: will return 0 when sucessful
-
  */
 int main(void)
 {

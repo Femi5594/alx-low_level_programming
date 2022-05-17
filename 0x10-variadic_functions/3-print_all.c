@@ -4,7 +4,6 @@
  * print_all - prints all
  * @format: param
  */
-
 void print_all(const char * const format, ...)
 {
 	va_list valist;

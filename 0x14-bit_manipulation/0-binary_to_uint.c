@@ -8,9 +8,8 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int a = 0;
-	int base_len;
-	int base_two;
+	unsigned int ans = 0;
+	int base_len, int base_two;
 
 	if (!b)
 		return (0);
@@ -26,9 +25,9 @@ unsigned int binary_to_uint(const char *b)
 
 		if (b[base_len] & 1)
 		{
-			a += base_two;
+			ans += base_two;
 		}
 	}
 
-	retun(a);
+	retun(ans);
 }
